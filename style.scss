@@ -1,0 +1,26 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'helvetica', sans-serif;
+}
+
+
+/*grid layout, sizing, and padding*/
+
+// ungrid
+@media (min-width: 30em) {.row { width: 100%; display: table; table-layout: fixed; } .col { display: table-cell; } }
+// spacing b/t cols?
+.row { border-spacing: 15px 0; }
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.col{
+	outline: 1px solid red;
+	text-align: center;
+	vertical-align: text-top;
+}
